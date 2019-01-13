@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.abhinav.projectquiz.Question">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="question1"
+            android:paddingBottom="8dp"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/question1_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="What is the first page of a website called?"
+            android:inputType="text" />
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question1_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="New Page"
+                />
+
+            <RadioButton
+                android:id="@+id/question1_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Current Page" />
+
+            <RadioButton
+                android:id="@+id/question1_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Home Page" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question2_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question2"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/question2_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is the full form of IP?"
+            />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question2_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Internet Protocol"
+                android:textColor="#0c0c0c" />
+
+            <RadioButton
+                android:id="@+id/question2_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Intercommnunication Protocol" />
+
+            <RadioButton
+                android:id="@+id/question2_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Information Protocol" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question3"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/question3_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which of the following are ViewGroups in Android?"
+            />
+
+        <CheckBox
+            android:id="@+id/question3_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout" />
+
+        <CheckBox
+            android:id="@+id/question3_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HorizontalLayout" />
+
+        <CheckBox
+            android:id="@+id/question3_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout" />
+
+        <CheckBox
+            android:id="@+id/question3_choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VeticalLayout" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question4_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question4"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/question4_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Which of the following is not a programming language"
+            />
+        <CheckBox
+            android:id="@+id/question4_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Javanese" />
+
+        <CheckBox
+            android:id="@+id/question4_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Haskell" />
+
+        <CheckBox
+            android:id="@+id/question4_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akan" />
+
+        <CheckBox
+            android:id="@+id/question4_choice4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Scala" />
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="question5"
+            />
+        <TextView
+            android:id="@+id/question5_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who is the owner of Android? "
+            android:textSize="18sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question5_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jeff Bezos" />
+
+            <RadioButton
+                android:id="@+id/question5_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andy Rubin" />
+
+            <RadioButton
+                android:id="@+id/question5_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kenneth Chenault" />
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question5_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question6"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/question6_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which was the first moble to run on Android?"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question6_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google gPhone" />
+
+            <RadioButton
+                android:id="@+id/question6_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T-Mobile G1" />
+
+            <RadioButton
+                android:id="@+id/question6_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motorola Droid" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question7"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/question7_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which of the following are component of android apk file?"/>
+
+        <CheckBox
+            android:id="@+id/question7_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Native Libraries" />
+
+        <CheckBox
+            android:id="@+id/question7_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resources" />
+
+        <CheckBox
+            android:id="@+id/question7_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalvik executable" />
+
+        <CheckBox
+            android:id="@+id/question7_choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All of the above" />
+
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question8_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question8"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/question8_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R file in android is :"
+            />
+        <CheckBox
+            android:id="@+id/question8_choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Automatically Generated" />
+
+        <CheckBox
+            android:id="@+id/question8_choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pre Generated" />
+
+        <CheckBox
+            android:id="@+id/question8_choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manually Generated" />
+
+        <CheckBox
+            android:id="@+id/question8_choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All of the above" />
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question9"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/question9_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which of the following is not a state in lifecycle of a service? :"
+            />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question9_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starting" />
+
+            <RadioButton
+                android:id="@+id/question9_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Running" />
+            <RadioButton
+                android:id="@+id/question9_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="paused" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/question10_answer"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:text="question10"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/question10_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What built in database is android shipped with?"/>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/question10_choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SQLite" />
+
+            <RadioButton
+                android:id="@+id/question10_choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MySql" />
+            <RadioButton
+                android:id="@+id/question10_choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-R Diagram" />
+
+        </RadioGroup>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Submit"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

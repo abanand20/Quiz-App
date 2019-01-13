@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="8dp"
+
+        tools:context="com.example.abhinav.projectquiz.information">
+        <TextView
+            android:id="@+id/info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Infrormation About Quiz"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_text_view"
+            android:textSize="20sp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="40dp"
+            android:text="1.Quiz Consists Of 10 questions."/>
+
+
+
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info1"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="2.There Are Six Single Choice question."/>
+
+
+        <TextView
+            android:id="@+id/info3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info2"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="3.There Are Four Multiple Choice question."/>
+        <TextView
+            android:id="@+id/info4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info3"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="4.Radio Button are for Single Correct answer and CheckBox for Multiple Correct answer"/>
+        <TextView
+            android:id="@+id/info5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info4"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="5.Some Multiple Choice questions may only contain single answer so opt wisely."/>
+        <TextView
+            android:id="@+id/info6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info5"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="6.For Every Single Choice questions one mark will be Awarded."/>
+        <TextView
+            android:id="@+id/info7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info6"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="7.For Every Multiple Choice question two marks will be awarded ."/>
+        <TextView
+            android:id="@+id/info8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info7"
+            android:layout_marginLeft="32dp"
+            android:textSize="20sp"
+            android:text="8.For Every Incorrect Single Choice question no mark will be deducted."/>
+        <TextView
+            android:id="@+id/info9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info8"
+            android:layout_marginLeft="32dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="20sp"
+            android:text="9.For Every Incorrect Multiple Choice question also no mark will be deducted."/>
+        <TextView
+            android:id="@+id/info10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info9"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="16dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Press Here To Start Quiz"/>
+
+    </RelativeLayout>
+</ScrollView>
